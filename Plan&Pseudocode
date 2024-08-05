@@ -1,0 +1,14 @@
+# Plan
+Define thresholds: Set thresholds for CPU usage, memory usage, and disk space.
+Check system metrics: Use Linux commands to get the current CPU usage, memory usage, disk space, and running processes.
+Compare metrics against thresholds: If any metric exceeds the predefined threshold, log an alert message.
+Log alerts: Write alert messages to the console or a log file.
+
+# Pseudocode
+Define threshold values.
+Get current CPU usage.
+Get current memory usage.
+Get current disk space usage.
+Get running processes.
+Check if any metric exceeds the threshold.
+Log an alert if any metric is above the threshold.
